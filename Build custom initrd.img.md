@@ -9,6 +9,7 @@ Setup:
 - Copy all extracted files a build directory ex: /tmp/proxmox/build.
 - Copy the proxmox-ve_8.1-2.iso to the build directory and rename it to proxmox.iso **(Important)**
 - Rename initrd to initrd.org
+- Set exec permission on init and proxinstall (755)
 
   
 Build directory should look like this:
