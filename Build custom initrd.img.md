@@ -7,7 +7,7 @@ Setup:
   - \proxmox-ve_8.1-2.iso\pve-installer.squashfs\usr\share\perl5\Proxmox\Install\Config.pm
   - \proxmox-ve_8.1-2.iso\boot\initrd.img\initrd\init
 - Copy all extracted files a build directory ex: /tmp/proxmox/build.
-- Copy the proxmox-ve_8.1-2.iso to the build directory and rename it to proxmox.iso (Important)
+- Copy the proxmox-ve_8.1-2.iso to the build directory and rename it to proxmox.iso **(Important)**
 - Rename initrd to initrd.org
 
   
