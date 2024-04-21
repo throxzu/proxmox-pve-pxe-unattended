@@ -4,6 +4,7 @@ Modify the installer for Proxmox PVE 8.1.2 to accept parameters to run unattened
 
 Limitations
 - No software RAID setup
+- My perl skills :-)
 
 Extra kernel parameters:
  - px_dns=\<dns ip\>
