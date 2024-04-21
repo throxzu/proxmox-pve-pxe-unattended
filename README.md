@@ -24,5 +24,7 @@ Extra kernel parameters:
  Example from grub.cfg
 - linux   /boot/linux26 ro ramdisk_size=16777216 rw splash=verbose vga=788 px_dns=10.10.10.100 px_domain=mgmt.nnithosting.com px_cidr=10.10.10.10/24 px_gw=10.10.10.1 px_keymap=dk px_time_zone=Europe/Copenhagen px_country=dk px_hostname=pv202 px_mail=no_reply@mailme.com px_target_hd=/dev/sda px_mngmt_nic=eno5np0 px_mngmt_nic_id=2 px_password=SuperSecret px_unattend=yes
 
+Findings:
+ - Using grubx64.efi from the Proxmox iso gave me an "out of memory" error when loading initrd so I used grubx64.efi from the latest Ubuntu distro.
   
   
