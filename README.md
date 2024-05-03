@@ -1,6 +1,8 @@
 # proxmox-pve-pxe-unattended
 
 Modify the installer for Proxmox PVE 8.1.2 to accept parameters to run unattened.
+Note: This also works on 8.2, but you need to modify the files as described in the build custom initrd.img.
+Files included on this site is for 8.1.2.
 
 Limitations
 - No software RAID setup
