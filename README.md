@@ -29,5 +29,7 @@ Extra kernel parameters:
 
 Findings:
  - Using grubx64.efi from the Proxmox iso gave me an "out of memory" error when loading initrd so I used grubx64.efi from the latest Ubuntu distro.
+ - Diable TPM in BIOS
+ - Add "rmmod tpm" to grub.cfg
   
   
